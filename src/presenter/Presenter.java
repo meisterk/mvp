@@ -19,8 +19,8 @@ public class Presenter implements IPresenter {
     @Override
     public void buttonClick() {
         String eingabe = view.getData();
-        model.setDaten(eingabe);
-        String ausgabe = model.getDaten();
+        model.setData(eingabe);
+        String ausgabe = model.getData();
         view.displayData(ausgabe);
     }
 }

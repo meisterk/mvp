@@ -4,12 +4,12 @@ public class Model implements IModel {
     private String daten;
 
     @Override
-    public void setDaten(String eingabe) {
-        this.daten = eingabe;
+    public void setData(String input) {
+        this.daten = input;
     }
 
     @Override
-    public String getDaten() {
+    public String getData() {
         return daten.toUpperCase();
     }
 }
