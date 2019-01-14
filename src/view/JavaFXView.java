@@ -10,13 +10,13 @@ import presenter.IPresenter;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class JavaFXView implements IView , Initializable {
+public class JavaFXView implements IView, Initializable {
     @FXML
-    private TextField textFieldEingabe;
+    private TextField textFieldInput;
     @FXML
     private Button button;
     @FXML
-    private Label labelAusgabe;
+    private Label labelOutput;
 
     private IPresenter presenter;
 
@@ -35,11 +35,11 @@ public class JavaFXView implements IView , Initializable {
 
     // Daten
     public void displayData(String data) {
-        labelAusgabe.setText(data);
+        labelOutput.setText(data);
     }
 
     public String getData() {
-        return textFieldEingabe.getText();
+        return textFieldInput.getText();
     }
 
 

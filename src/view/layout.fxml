@@ -9,9 +9,9 @@
 
 <VBox xmlns="http://javafx.com/javafx/8.0.191" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField fx:id="textFieldEingabe" />
+      <TextField fx:id="textFieldInput"/>
       <Button fx:id="button" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Rechnen" />
-      <Label fx:id="labelAusgabe" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Ausgabe" textAlignment="CENTER">
+      <Label fx:id="labelOutput" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Ausgabe" textAlignment="CENTER">
          <padding>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
          </padding>
