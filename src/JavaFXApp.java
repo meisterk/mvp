@@ -40,7 +40,7 @@ public class JavaFXApp extends Application {
         fenster.setScene(new Scene(root));
 
         // sonstige Fenstereigenschaften
-        fenster.setTitle("MVP mit JavaFX");
+        fenster.setTitle("MVP with JavaFX");
 
         // Fenster anzeigen
         fenster.show();

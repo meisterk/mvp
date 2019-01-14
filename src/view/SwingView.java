@@ -14,7 +14,7 @@ public class SwingView implements IView {
     private IPresenter presenter;
 
     private JTextField textField = new JTextField();
-    private JButton button = new JButton("Rechnen");
+    private JButton button = new JButton("Do something");
     private JLabel label = new JLabel(" ");
 
     public SwingView() {
@@ -25,7 +25,7 @@ public class SwingView implements IView {
         panel.add(button);
         panel.add(label, BorderLayout.SOUTH);
         frame.setSize(300,200);
-        frame.setTitle("MVP mit Swing");
+        frame.setTitle("MVP with Swing");
         frame.setVisible(true);
 
         button.addActionListener(new ActionListener() {
