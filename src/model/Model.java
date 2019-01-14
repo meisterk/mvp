@@ -1,15 +1,15 @@
 package model;
 
 public class Model implements IModel {
-    private String daten;
+    private String data;
 
     @Override
     public void setData(String input) {
-        this.daten = input;
+        this.data = input;
     }
 
     @Override
     public String getData() {
-        return daten.toUpperCase();
+        return data.toUpperCase();
     }
 }

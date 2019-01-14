@@ -1,6 +1,6 @@
 package presenter;
 
 public interface IPresenter {
-    // für View: Verarbeitung von Events
+    // for View: process events
     void buttonClick();
 }
