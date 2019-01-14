@@ -3,10 +3,10 @@ package view;
 import presenter.IPresenter;
 
 public interface IView {
-    // für App: Verbindung View -> Presenter für Events
+    // for App: connect View -> Presenter for events
     void setPresenter(IPresenter presenter);
 
-    // für Presenter: anzeigen und lesen von Daten
-    void setDaten(String daten);
-    String getDaten();
+    // for Presenter: display data and read userinput
+    void displayData(String data);
+    String getData();
 }

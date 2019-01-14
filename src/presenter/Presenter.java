@@ -12,15 +12,15 @@ public class Presenter implements IPresenter {
         this.model = model;
 
         // Start
-        view.setDaten("wrtegdfgf");
+        view.displayData("wrtegdfgf");
     }
 
     // Events
     @Override
     public void buttonClick() {
-        String eingabe = view.getDaten();
+        String eingabe = view.getData();
         model.setDaten(eingabe);
         String ausgabe = model.getDaten();
-        view.setDaten(ausgabe);
+        view.displayData(ausgabe);
     }
 }

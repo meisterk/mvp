@@ -34,11 +34,11 @@ public class JavaFXView implements IView , Initializable {
     }
 
     // Daten
-    public void setDaten(String daten) {
-        labelAusgabe.setText(daten);
+    public void displayData(String data) {
+        labelAusgabe.setText(data);
     }
 
-    public String getDaten() {
+    public String getData() {
         return textFieldEingabe.getText();
     }
 

@@ -45,12 +45,12 @@ public class SwingView implements IView {
 
     // fuer Presenter
     @Override
-    public void setDaten(String daten) {
-        label.setText(daten);
+    public void displayData(String data) {
+        label.setText(data);
     }
 
     @Override
-    public String getDaten() {
+    public String getData() {
         return textField.getText();
     }
 
